@@ -13,6 +13,7 @@ public class Posnet {
             
         
         chequeoSaldo(tarjeta, cuotas, resultados[0], resultados[1]);
+        tarjeta.setSaldo(monto - resultados[1]);
         return imprimirTicket(tarjeta, resultados[0], resultados[1]);
         }
         catch (SaldoInsuficienteException e){

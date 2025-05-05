@@ -20,7 +20,8 @@ public class Main {
         
         
         System.out.println(pago);
-             
+        System.out.println(t1);
+            
     }
     
 }

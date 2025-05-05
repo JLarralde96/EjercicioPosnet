@@ -39,6 +39,12 @@ public class Tarjeta {
     
     }
     
+    public void setSaldo(double nuevoSaldo){
+    
+    this.saldoDisponible = nuevoSaldo;
+    
+    }
+    
     
     @Override
     public String toString(){
